@@ -25,6 +25,8 @@ module.exports = {
       'no-unused-vars': ['warn', { 'argsIgnorePattern': '^_' }], // Set to 'warn' instead of 'error'
       // You can also completely turn off the rule with:
       // 'no-unused-vars': 'off',
+      "react/react-in-jsx-scope": "off",
+      "react/no-unknown-property": ["error", { "ignore": ["class"] }]
     },
   };
   
